@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.botao {
+  padding: 0.938rem 1.875rem;
+  background: #fff;
+  justify-self: end;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header,
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+img {
+  width: 120px;
+  height: 120px;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li a:link,
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 9999;
+  text-align: center;
+}
+
+#popup-message {
+  font-weight: bold;
+}
+
+#experiencia-detalhes {
+  margin-top: 20px;
+}
+
+#experiencia-detalhes p {
+  margin-bottom: 10px;
+}
+
+#contato p {
+  margin: 5px 0;
+}
+
+#contato img {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.competencias1 {
+  margin-left: 30px;
+}
+
+.footercompetencias {
+  color: #fff;
+}
